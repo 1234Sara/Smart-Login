@@ -1,0 +1,118 @@
+body{
+    background-color: #24353f;
+    font-family: sans-serif;
+}
+
+/* Login & Sign Up*/
+
+.group{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+h1{
+    color:#17a2b8;
+}
+
+#incorrectInputs{
+    display: none;
+}
+
+#incorrectEmail{
+    display: none;
+}
+
+#success{
+    display: none;
+}
+
+#incorrectBoth{
+    display: none;
+}
+
+#nameAlert{
+    display: none;
+}
+
+#emailAlert{
+    display: none;
+}
+
+#passwordAlert{
+    display: none;
+}
+
+.form-control {
+    color: #fff !important;
+    background-color: transparent;
+}
+
+.form-control:focus {
+    background-color: transparent !important;
+    box-shadow: 0 0 0 0 transparent !important;
+}
+
+.form-control::placeholder {
+    color: lightgray;
+}
+
+.log{
+    transition: all 0.4s;
+}
+
+.log:hover{
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.log .btn-outline-info:not(:disabled):not(.disabled).active, .btn-outline-info:not(:disabled):not(.disabled):active, .show>.btn-outline-info.dropdown-toggle {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.log .btn-outline-info.focus, .btn-outline-info:focus {
+    box-shadow: 0 0 0 .2rem rgba(23, 162, 184, .5);
+}
+
+.sign{
+    transition: all 0.4s;
+}
+
+.sign:hover{
+    text-decoration: underline !important;
+}
+
+/* Welcome Page */
+
+.navbar{
+    background-color: #24353f;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.logout{
+    color: rgba(255, 255, 255,.75);
+    transition: all 0.5s;
+}
+
+.logout:hover {
+    color:rgba(255, 255, 255,.75);
+}
+
+.logout:focus:not(:focus-visible) {
+box-shadow: 0 0 0 0.2rem rgba(255,193,7,.5);
+}
+
+/* Media Query */
+
+@media all and (min-width: 492px) and (max-width: 767px){
+    .logout{
+        padding: 10px 200px !important;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 992px){
+    .logout{
+        padding: 10px 300px !important;
+    }
+}
